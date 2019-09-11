@@ -130,8 +130,7 @@
 
                         var q = o.filter(s -&gt; s.startsWith("a"));
 
-                        Arrays.stream(new String[]{"asdf", "a"}).map(count).forEach(System.out::println);
-                        var n = Arrays.stream(new String[]{"asdf", "a"}).map(count).reduce(Integer::sum);
+                        var n = Arrays.stream(strings).map(count).reduce(Integer::sum);
                     </code></pre>
                 </section>
                 <section data-background="img/alert.gif" style="color:black">
@@ -162,12 +161,6 @@
                     <ul>
                         <li class="fragment">Monad</li>
                     </ul>
-                </section>
-                <section>
-                        <blockquote cite="asdf">
-                            &ldquo;If you can use math to do something, you should&rdquo;
-                        </blockquote>
-                        <p><small>Philip Wadler</small></p>
                 </section>
                 <section>
                     <h3>Where to next?</h3>

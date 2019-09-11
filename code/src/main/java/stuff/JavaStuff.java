@@ -38,6 +38,8 @@ public class JavaStuff {
 
     public static Function<String, Integer> count = String::length;
 
+    public static String[] strings = new String[]{"asdf", "a"};
+
     public static String randomNumUrl = "http://randnum.herokuapp.com";
     public static String randomWordUrl = "http://random-word.herokuapp.com/";
 
